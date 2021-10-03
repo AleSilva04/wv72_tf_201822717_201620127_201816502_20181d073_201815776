@@ -44,3 +44,8 @@ Ejemplo de pasos para hallar las rutas:
 
 ![image](https://user-images.githubusercontent.com/66271146/135732333-347d9314-83c3-4170-bcbc-0ea2e769dc63.png)
 ![image](https://user-images.githubusercontent.com/66271146/135732336-37a71eeb-e6fb-43fc-9cbc-9cb30e954f54.png)
+
+
+## Video de Actividades realizadas
+Link: https://youtu.be/LI-H8t198XA
+
