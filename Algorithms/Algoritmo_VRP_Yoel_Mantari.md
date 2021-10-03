@@ -1,4 +1,4 @@
-#**Restricciones**
+# Restricciones 
 
 
 1.   Cada vehiculo tiene un limite de abastecer 5 puntos de entrega
@@ -10,7 +10,7 @@
 
 ---
 
-##Primero
+## Primero
 
 
 1.   Agregamos cada las distancia entre los punto a una matriz de adyacencia llamada "M"  #........................ n^2
@@ -18,7 +18,7 @@
 3.   agregamos todos los puntos menos el de partida
  a una lista llamada **"Puntos_actuales"** #…………………………… n-1
 
-##Segundo
+## Segundo
 
 1.   Mientras la lista "Puntos _actuales" no esta vacia se ejecutara:#…………… n
 2.  Permutamos la lista **"Puntos_actuales"**{#…………………………… !(n-1)
@@ -57,7 +57,7 @@ Puntos_actuales=[4,6,8,1,11,12,10]
 13. fin de la ejecucion de Lista **"Puntos_actuales"** si  queda vacia
 14. retornar **trayectoria_definitiva"**………………… 1
 
-##Tercero
+## Tercero
 1. cada vehiculo se le asignara la trayectoria definida por lista **trayectoria_definitiva"**, hasta el final ………………… n/5
 
 ```
