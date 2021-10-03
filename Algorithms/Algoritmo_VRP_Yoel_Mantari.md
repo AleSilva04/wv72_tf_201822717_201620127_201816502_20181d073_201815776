@@ -25,7 +25,7 @@
 3.   Recorremos los puntos obtenidos de lista **"Puntos_actuales"** hasta el numero de abastecimiento del carro   …………………………… n-1{
 3. ingresamos los datos de la list **"Puntos_actuales"**  en la Matriz "M", y obtenemos la distancia recorrida lo guardamos en "Dist_actual"  …………………………… 1
 4. actualizamos el valor de "nodo_actual" con su vertice adyacente  ……………… 1 }
-5. si el numero de abastecimiento de un carro es que el tamaño de la lista de **"Puntos_actuales"** entonces: { …………………………… 1
+5. si el numero de abastecimiento de un carro es mayor que el tamaño de la lista de **"Puntos_actuales"** entonces: { …………………………… 1
 6. Creamos una lista llamada **"min_trayectoria"** que guarde como primer parametro la distancia actual "Dist_actual" y como segundo parametro una lista con los 5 primeros puntos de la lista **"Puntos_actuales"** }………………… 1
 
 7. caso contrario:
