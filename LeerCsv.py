@@ -10,6 +10,6 @@ def leer_archivo(name):
         punto = []
         punto.append(int(fila[0]))
         punto.append(int(fila[1]))
-        datos.append(dato)
+        datos.append(punto)
       entro = True
   return datos
