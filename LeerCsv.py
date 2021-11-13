@@ -7,9 +7,7 @@ def leer_archivo(name):
     entro = False #Esto porque comienza con un x,y en el excel
     for fila in reader:
       if entro == True:
-        punto = []
-        punto.append(int(fila[0]))
-        punto.append(int(fila[1]))
+        punto = (int(fila[0]),int(fila[1]))
         datos.append(punto)
       entro = True
   return datos
