@@ -48,3 +48,18 @@ for i in range(100):
   for y in range(limits[0],limits[1]+1):
     for x in range(limits[2],limits[3]+1):
       regions[i].append(y*1000+x)
+      
+      
+#Aplicamos dijkstra para cada region desde su respectivo almacen
+paths_costs=[([],[]) for _ in range(100)]
+for i in range(100):
+  g=groupNodes[i]
+  g.append(almacenes[i])
+  path, cost = dijkstra(regions[i],g,G,almacenes[i])
+  paths_costs[i]=(path,cost)
+
+#Imprimos el camino y los costos para cada Region  
+for i,path_cost in enumerate(paths_costs):
+  print(f"Region {i}:")
+  print(f"Path: {path_cost[0]}")
+  print(f"Cost: {path_cost[1]}")
