@@ -1,19 +1,25 @@
 
 import heapq as hq
 import math
-def dijkstra(G, s):
-  n = len(G)
-  visited = [False]*n
-  path = [None]*n
-  cost = [math.inf]*n
+def dijkstra(M,Pts, G, s):
+  visited = {node:False for node in M}
+  visitedPts = []
+  path = {node:None for node in M}
+  cost = {node:math.inf for node in M}
   cost[s] = 0
   queue = [(0, s)]
   while queue:
+    if len(visitedPts) == len(Pts):
+      break
     g_u, u = hq.heappop(queue)
-    if not visited[u]:
+    if visited[u] is False:
       visited[u] = True
-      for v,w in enumerate(G[u]):
-        f = g_u + w
+      if u in Pts:
+        visitedPts.append(1)
+      for v in G[u]:
+        if v not in M:
+          continue
+        f = g_u + 1
         if f < cost[v]:
           cost[v] = f
           path[v] = u
