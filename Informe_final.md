@@ -59,3 +59,5 @@ La forma en que decidimos simplificar el problema fue dividiéndolo en pequeños
 de los puntos de entrega dentro del mismo. Esto simplifica bastante el problema, porque ahora pasamos a tener un espacio de búsqueda por cada 
 almacén mucho menor del que teníamos anteriormente, antes era todo el grafo que en nuestro sería un grafo de un millón nodos, ahora cada almacén 
 solo se encargaria de un subgrafo mucho menor de unos miles de nodos.
+
+**LINK DEL VIDEO EXPLICATIVO:** https://youtu.be/--K4s9ByonE
